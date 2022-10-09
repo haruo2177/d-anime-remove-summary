@@ -1,0 +1,12 @@
+{
+  "name": "d-anime-remove-summary",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Remove all text displayed during loading of d-Anime Store to prevent spoilers",
+  "content_scripts": [
+    {
+      "matches": ["https://animestore.docomo.ne.jp/animestore/sc_d_pc?*"],
+      "js": ["content.js"]
+    }
+  ]
+}
