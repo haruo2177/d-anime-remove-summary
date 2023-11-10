@@ -5,7 +5,7 @@
   "description": "Remove all text displayed during loading of d-Anime Store to prevent spoilers",
   "content_scripts": [
     {
-      "matches": ["https://animestore.docomo.ne.jp/animestore/sc_d_pc?*"],
+      "matches": ["https://animestore.docomo.ne.jp/animestore/*"],
       "js": ["content.js"]
     }
   ]
