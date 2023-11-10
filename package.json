@@ -1,0 +1,22 @@
+{
+  "name": "d-anime-remove-summary",
+  "version": "1.0.0",
+  "description": "d アニメストアでアニメを見るときに、再生を実行してから 実際に再生されるまでの間に表示される概要文でネタバレを 食らう回数が多すぎたので、その概要文を消す chrome 拡張を 作成しました。",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haruo2177/d-anime-remove-summary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haruo2177/d-anime-remove-summary/issues"
+  },
+  "homepage": "https://github.com/haruo2177/d-anime-remove-summary#readme",
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  }
+}
